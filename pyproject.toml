@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "AuditLens"
+version = "0.1.0"
+requires-python = ">=3.14.5"
+
+[tool.setuptools]
+package-dir = {"" = "Program Files"}
+py-modules = [
+  "Auditlens",
+  "Configuration",
+  "ImportVerification",
+  "Models",
+  "TestRules",
+]
+
+[tool.setuptools.packages.find]
+where = ["Program Files"]
+include = ["Analysis*", "Correlation*", "Detection*", "Ingest*", "Reporting*", "Timeline*", "Utilities*"]
