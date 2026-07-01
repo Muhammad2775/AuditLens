@@ -1,0 +1,6 @@
+timestamp,host,user,ip_address,action,severity,event_category,message,session_id,outcome
+2026-05-14T09:18:32Z,ws-014,jdoe,10.10.8.21,failed_login,medium,authentication,Invalid password attempt,S-1001,failure
+2026-05-14T09:19:01Z,ws-014,jdoe,10.10.8.21,failed_login,medium,authentication,Invalid password attempt,S-1001,failure
+2026-05-14T09:19:44Z,ws-014,jdoe,10.10.8.21,successful_login,high,authentication,Login successful,S-1001,success
+2026-05-14T10:02:11Z,dc-01,admin01,10.10.1.10,group_change,critical,privilege,User added to local administrators group,S-2001,success
+2026-05-14T10:05:20Z,file-01,jdoe,10.10.8.21,file_access,high,resource_access,Accessed restricted audit archive,S-1001,success
