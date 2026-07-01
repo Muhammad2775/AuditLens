@@ -1,0 +1,35 @@
+# AuditLens Project .gitignore
+AuditLens.egg-info/
+
+# Python Runtime & Cache (Universal)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Environments & Virtual Ecosystems
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs, Code Editors, and OS Files
+.vscode/
+.idea/
+*.suo
+*.sln
+*.swp
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# System Runtime Outputs (AuditLens Specific)
+# Keeps your 'data/raw/' and 'data/sample/' templates tracked, 
+# but ignores dynamically generated logs, test outputs, or reports.
+*.log
+logs/
+processed/
+
+__init__.py
