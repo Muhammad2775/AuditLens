@@ -1,0 +1,5 @@
+2026-05-14 08:51:12 host=ws-014 process=cmd.exe parent=winword.exe action=start severity=high message="Command shell launched from document"
+
+2026-05-14 08:51:18 host=ws-014 process=powershell.exe parent=cmd.exe action=start severity=critical message="PowerShell launched from command shell"
+
+2026-05-14 08:51:30 host=ws-014 process=net.exe parent=powershell.exe action=start severity=high message="Enumeration command executed"

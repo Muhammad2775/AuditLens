@@ -1,0 +1,3 @@
+[2026-05-14 11:21:09] app=vpn-gateway host=vpn-01 user=jdoe event=login_attempt result=failure ip=10.10.8.21 msg="VPN authentication failure"
+
+[2026-05-14 11:22:11] app=vpn-gateway host=vpn-01 user=jdoe event=login_attempt result=success ip=10.10.8.21 msg="VPN login successful"
